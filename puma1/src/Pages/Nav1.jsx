@@ -2,7 +2,6 @@ import React from 'react'
 import "../Styles/nav.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass, faHeart, faCartShopping, faUser } from '@fortawesome/free-solid-svg-icons'
-import { Link } from 'react-router-dom'
 
 const Nav1 = () => {
   return (
