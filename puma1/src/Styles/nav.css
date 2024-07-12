@@ -39,6 +39,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+       
         /* justify-content: center; */
 
        }
@@ -48,6 +49,10 @@
         padding-left: 25px;
         align-items: center;            
         width: 3%;
+        @media screen and (max-width: 980px){
+            width: 53px;
+
+        }
        }
        #menu{
         width: 60%;
@@ -62,9 +67,14 @@
         padding-left: 1px;
         font-weight: 700;
         font-size: 16px;
-        @media screen and (max-width: 512px) {
+
+        @media screen and (max-width: 980px){
             display: none;
         }
+
+        /* @media screen and (max-width: 512px) {
+            display: none;
+        } */
 
     }
     .last{
@@ -80,10 +90,11 @@
         padding-left: 10%;
         font-weight: 900;
         font-size: 16px;
-        @media screen and (max-width: 512px) {
-
-            border: 2px none red;
+        @media screen and (max-width:980px) {
+            
+            border: 2px sold blue;
         }
+       
     }
        #search{
                     width: 150px;
@@ -96,7 +107,13 @@
                     flex-direction: row;
                     text-shadow: transparent;
                     justify-content: center;
-                    
+                    @media screen and (max-width: 980px){
+                        border: none;
+                        outline: none;
+                        display: none;
+                        /* padding-left: 200px; */
+                    }
+                  
     
                 }
                 #search-icon{
@@ -104,6 +121,8 @@
                     display: flex;
                     margin-top:auto;
                     margin-bottom: auto;
+                 
+                
                     
                 }
                 /* .icons i:hover{
@@ -122,13 +141,23 @@
                     text-align: center;
                     font-family: Arial, Helvetica, sans-serif;
                     font-weight: bold;
+                   
                     /* margin-bottom: auto; */
 
+                }
+
+                #search p:nth-child(2){
+
+                    
+                    @media screen and (max-width: 980px){
+                        display: none;
+                    }
                 }
                     .last{
                             display: flex;
                             text-align: center;
                             justify-content: space-around;
+                           
 
                     }
                 .icons{
@@ -140,7 +169,13 @@
                     padding-left: 40%;
                     display: flex;
                     flex-direction: row;
-                    justify-content: space-evenly;                        
+                    justify-content: space-evenly;      
+                    @media screen and (max-width:980px) {
+                        width: 200px;
+                        margin-left: 200px;
+                        /* border: 2px solid yellow; */
+                       /* padding-left: 350px; */
+                    }                  
                 }
                 .icons p{
                     align-items: center;
