@@ -34,6 +34,14 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    p{
+            font-size: 16px;
+            font-weight: lighter;
+    }
+    h2{
+        font-size: 17px;
+
+    }
     /* padding-left: 10px; */
 }
 
@@ -50,6 +58,14 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    p{
+        font-size: 16px;
+        font-weight: lighter;
+}
+h2{
+    font-size: 17px;
+
+}
 }
 
 .third-box{
@@ -61,15 +77,52 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    p{
+        font-size: 16px;
+        font-weight: lighter;
+}
+
+h2{
+    font-size: 17px;
+
+}
 
 }
 
 .fourth-box{
-    /* border: 2px solid black; */
-    width: 35%;
+    border: 2px solid black;
+    width: 30%;
     height: 280px;
     margin-top: 10px;
+    text-align: left;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
 
+
+h2{
+    font-size: 17px;
+
+
+}
+
+h4{
+
+    font-size: 16px;
+    padding-top: 13px;
+    font-weight: lighter;
+    color: white;
+    
+}
+
+
+}
+
+.fourth-box h4:hover{
+
+    cursor: pointer;
+    font-weight: 400;
+    transform: none;
 }
 
 .fourth-box ul {
@@ -79,13 +132,20 @@
     height: 40px;
     display: flex;
     justify-content: space-around;
+    /* align-items: flex-start; */
     font-size: 26px;
-    margin-left: 150px;
+    /* margin-left: 150px; */
     margin-top: 40px;
     :hover{
 
         cursor: pointer;
     }
+}
+
+.explore{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 20px;
 }
 
 .footer-body-last{
@@ -100,24 +160,72 @@
 
 .box1{
 
-    /* border: 2px solid black; */
+    border: 2px solid white;
     width: 20%;
     height: 70px;
-    margin-top: 30px;
+    margin-top: 10px;
 
 }
 
 .box2{
-    /* border: 2px solid black; */
+    /* border: 2px solid white; */
     width: 20%;
     height: 70px;
-    margin-top: 30px;
+    margin-top: 10px;
+   
+}
+
+.box2-child{
+
+    /* border: 1px solid white; */
+    outline: 1px inset ;
+    width: 170px;
+    height: 51px;
+    margin-left: 100px;
+    display: flex;
+    padding-top: 10px;
+    /* box-sizing: border-box; */
+    
+    /* margin-top: 10px; */
+}
+.box2-child:hover{
+
+    cursor: pointer;
+    /* border:2px solid white; */
+    
+
+}
+.box2-child p:nth-child(2){
+
+    padding-left: 10px;
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.circle{
+
+    margin-left: 20px;
+    /* border: 2px solid black; */
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: url(https://media.istockphoto.com/id/1471401435/vector/round-icon-of-indian-flag.jpg?s=612x612&w=0&k=20&c=kXy7vTsyhEycfrQ9VmI4FpfBFX2cMtQP5XIvTdU8xDE=);
+    background-size: cover;
+    
 }
 
 .box3{
-    /* border: 2px solid black; */
+    /* border: 2px solid white; */
     width: 20%;
     height: 70px;
-    margin-top: 30px;
+    margin-top: 10px;
+    line-height: 1.8;
 
+}
+
+.box3 p{
+    
+    font-size: 12px;
+    text-align: right;
 }
