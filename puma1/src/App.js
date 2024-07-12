@@ -5,6 +5,7 @@ import Nav1 from './Pages/Nav1';
 import Home from './Pages/Home';
 import Footer from './Pages/Footer';
 import Login from './Pages/Login';
+import Register from './Pages/Register';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
       <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="/login" element={<Login/>} />
+      <Route path="/register" element={<Register/>} />
+
 
       {/* <Route path="/nav1" element={<Nav1/>} /> */}
 
