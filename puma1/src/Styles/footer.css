@@ -72,6 +72,22 @@
 
 }
 
+.fourth-box ul {
+    list-style-type: none;
+    /* border: 2px solid red; */
+    width: 270px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 26px;
+    margin-left: 150px;
+    margin-top: 40px;
+    :hover{
+
+        cursor: pointer;
+    }
+}
+
 .footer-body-last{
 
     /* border: 2px solid blue; */

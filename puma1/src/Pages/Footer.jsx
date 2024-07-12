@@ -1,12 +1,12 @@
 import React from 'react'
 import "../Styles/footer.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTwitter } from '@fortawesome/free-solid-svg-icons'
+import { faTwitter,faYoutube,faPinterest,faInstagram,faFacebook } from '@fortawesome/free-brands-svg-icons'
 
 const Footer = () => {
   return (
 
-    <>
+    <>  
     <link rel="stylesheet" href="../Styles/footer.css" />
 
     <div className='footer-body'>
@@ -50,8 +50,11 @@ const Footer = () => {
 
     <h3>Sign Up for Email</h3>
     <ul>
-        {/* <li> <FontAwesomeIcon icon={faYoutube} /> </li>
-        <li><FontAwesomeIcon icon={faTwitter} style={{color: "#ffffff",}} /> </li> */}
+        <li> <FontAwesomeIcon icon={faYoutube} /> </li>
+        <li><FontAwesomeIcon icon={faTwitter} style={{color: "#ffffff",}} /> </li>
+        <li><FontAwesomeIcon icon={faPinterest} style={{color: "#ffffff",}} /></li>
+        <li><FontAwesomeIcon icon={faInstagram} style={{color: "#ffffff",}} /></li>
+        <li><FontAwesomeIcon icon={faFacebook} style={{color: "#ffffff",}} /></li>
     </ul>
     </div>
 
