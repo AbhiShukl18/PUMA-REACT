@@ -6,6 +6,12 @@
     background-color: #181818;
     color: white;
     /* margin-top: 2000px; */
+    @media screen and (max-width:980px) {
+        border: 2px solid blue;
+        height: 480px;
+        
+
+    }
    
 }
 
@@ -19,7 +25,18 @@
     display: flex;
     justify-content: space-around;
     padding-top: 30px;
-    
+    border-bottom: 1px solid white ;
+    @media screen and (max-width:980px) {
+        border: 2px solid red;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 160px;
+        align-items: flex-start;
+        
+
+    }
+        
 
 }
 
@@ -34,9 +51,19 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    @media screen and (max-width:980px) {
+
+        /* border: 2px solid red; */
+        height: 30px;
+        display: flex;
+
+    }
     p{
             font-size: 16px;
             font-weight: lighter;
+            @media screen and (max-width:980px) {
+                display: none;
+            }
     }
     h2{
         font-size: 17px;
@@ -58,9 +85,13 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    @media screen and (max-width:980px) {
+        display: none;
+    }
     p{
         font-size: 16px;
         font-weight: lighter;
+        
 }
 h2{
     font-size: 17px;
@@ -77,9 +108,21 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    @media screen and (max-width:980px) {
+
+        /* border: 2px solid red; */
+        height: 30px;
+        display: flex;
+        margin-top: 20px;
+        padding-left: 20px;
+
+    }
     p{
         font-size: 16px;
         font-weight: lighter;
+        @media screen and (max-width:980px) {
+            display: none;
+        }
 }
 
 h2{
@@ -102,7 +145,15 @@ h2{
 
 h2{
     font-size: 17px;
+    @media screen and (max-width:980px) {
 
+        /* border: 2px solid red; */
+        height: 30px;
+        display: flex;
+        margin-top: 10px;
+        padding-left: 0px;
+
+    }
 
 }
 
@@ -112,6 +163,9 @@ h4{
     padding-top: 13px;
     font-weight: lighter;
     color: white;
+    @media screen and (max-width:980px) {
+        display: none;
+    }
     
 }
 
@@ -140,12 +194,19 @@ h4{
 
         cursor: pointer;
     }
+    @media screen and (max-width:980px) {
+        display: none;
+    }
 }
 
 .explore{
     margin-top: 20px;
     font-weight: 500;
     font-size: 20px;
+    @media screen and (max-width:980px) {
+        /* border: 2px solid red; */
+        margin-top: 20px;
+    }
 }
 
 .footer-body-last{
@@ -156,34 +217,47 @@ h4{
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
+    background-color: #181818;
 }
 
 .box1{
 
-    border: 2px solid white;
-    width: 20%;
-    height: 70px;
+    /* border: 2px solid yellow; */
+    width: 18%;
+    height: 50px;
     margin-top: 10px;
+    background-color: #181818;
+    display: flex;
+    justify-content: space-evenly;
+    img{
+        padding-top: 4px;
+    }
+    /* padding-top: 14px; */
 
 }
 
 .box2{
-    /* border: 2px solid white; */
+    /* border: 2px solid yellow; */
     width: 20%;
-    height: 70px;
+    height: 50px;
     margin-top: 10px;
+    background-color: #181818;
+    /* @media screen and(max-width:980px) {
+        
+        border: 2px solid red;
+    } */
    
 }
 
 .box2-child{
 
-    /* border: 1px solid white; */
+    border: 1px solid white;
     outline: 1px inset ;
     width: 170px;
-    height: 51px;
+    height: 47px;
     margin-left: 100px;
     display: flex;
-    padding-top: 10px;
+    padding-top: 4px;
     /* box-sizing: border-box; */
     
     /* margin-top: 10px; */
@@ -202,6 +276,7 @@ h4{
     font-weight: 500;
     font-size: 20px;
     margin-left: 10px;
+    color: white;
 }
 .circle{
 
@@ -216,16 +291,17 @@ h4{
 }
 
 .box3{
-    /* border: 2px solid white; */
+    /* border: 2px solid red; */
     width: 20%;
-    height: 70px;
+    height: 50px;
     margin-top: 10px;
     line-height: 1.8;
-
+    background-color: #181818;
 }
 
 .box3 p{
     
     font-size: 12px;
     text-align: right;
+    color: white;
 }
