@@ -1,6 +1,6 @@
 import React from 'react'
 import "../Styles/login.css"
-import Footer from './Footer'
+import Footer from './Footer'  
 
 const Login = () => {
   return (
@@ -27,7 +27,7 @@ const Login = () => {
 
       </div>
 
-      <Footer/>
+      <Footer/> 
     </div>
   )
 }
