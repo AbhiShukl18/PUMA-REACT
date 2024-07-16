@@ -43,8 +43,99 @@ const Home = () => {
       
     <div className='see-the-game'>
 
-</div>
+<div className='see-the-game-box'>
+  <h1>SEE THE GAME LIKE WE DO</h1>
+  <h3>PUMA x INDIAN OLYMPIC ASSOCIATION</h3>
+  <h5 >OFFICIAL FOOTWEAR PARTNER</h5>
+  <button>LEARN MORE</button>
+</div> {/* see-the-game-box ends here*/}
+</div> {/* see-the-game ends here*/}
 
+<div className='see-spain'>
+<div className='see-spain-box'>
+
+  <h1>SEE SPAIN LIKE WE DO</h1>
+  <h4>FOREVER. CHAMPIONS.</h4>
+    <button>SHOP NOW</button>
+
+</div> {/* see-spain-box ends here*/}
+
+</div>{/* see-spain ends here*/}
+
+<div className='play-loud'>
+<div className='play-loud-box'>
+<h1>PLAY LOUD</h1>
+<h3>BREAK IT DOWN</h3>
+<button>SHOP NOW</button>
+
+</div> {/* play-loud-box ends here*/}
+
+</div>{/* play-loud ends here*/}
+
+<div className='back-to-azzurro'>
+
+<div className='back-to-azzurro-box'>
+  <h1>BACK TO AZZURRO</h1>
+  <h3>SCUDERIA FERRARI MIAMI LIMITED EDITION</h3>
+  <button>SHOP NOW</button>
+
+</div> {/* back-to-azzurro-box ends here*/}
+</div>{/* back-to-azzurro ends here*/}
+
+<div className='puma-trolls'>
+
+<div className='puma-trolls-box'>
+  <h1>PUMA x TROLLS</h1>
+  <h3>THAT FUZZY FEELING</h3>
+  <button>SHOP NOW</button>
+
+
+</div>{/* puma-trolls-box ends here*/}
+
+</div>{/* puma-trolls ends here*/}
+
+<div className='puma-carrots'>
+
+  <div className='puma-carrots-box'>
+    <h1>PUMA X CARROTS</h1>
+    <h2>BY ANWAR CARROTS</h2>
+    <h5>ORGANIC XL CARROTS</h5>
+    <button>SHOP NOW</button>
+
+
+  </div> {/* puma-carrots-box ends here*/}
+</div> {/* puma-carrots ends here*/}
+
+<div className='made-with'>
+
+  <div className='made-with-box'>
+    <h1>MADE WITH</h1>
+    <h1>MILANISMO</h1>
+    <h3>24/25 AC MILAN HOME KIT</h3>
+    <button>SHOP NOW</button>
+
+
+  </div> {/* made-with=box ends here*/}
+</div> {/* made-with ends here*/}
+
+<div className='forever-faster-vid'>
+
+<video width= "99.9%" autoPlay muted loop src="https://cdn.sanity.io/files/qa41whrn/prod/41abad3662b8524f819e624d4ae4c6c5f6f38239.mp4">
+
+
+</video>
+<button>SHOP NOW</button>
+</div>  {/* forever-faster-vid here*/}
+
+<div className='kids-must'>
+  <h1>KIDS' MUST-HAVE STYLES</h1>
+  <div className='kids-must-box'>
+  <div id='school-store'></div>
+  <div id='casual-wear'></div>
+  <div id='softride-shoes'></div>
+  <div id='sets'></div>
+  </div>
+</div>
     </div> {/* class main-body ends here */}
     
     <Footer/>

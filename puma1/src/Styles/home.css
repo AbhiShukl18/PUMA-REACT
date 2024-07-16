@@ -1,7 +1,7 @@
 .main-body{
 
   border: 2px solid black;
-  height: 3000px;
+  height: 9000px;
   width: 100%;
 }
 
@@ -131,5 +131,329 @@ justify-content: space-evenly;
   background-image: url("https://cdn.sanity.io/images/qa41whrn/prod/35b6f7f51046e4e860050711a6cc7c6ddfb10322-6000x2167.jpg");
   background-size: cover;
   background-position: center;
+
+}
+
+.see-the-game-box{
+  /* border: 2px solid black; */
+  width: 600px;
+  height: 250px;
+  margin-top: 160px;
+  /* margin-left: 90px; */
+  color: white;
+  line-height: 1.5;
+  /* font-family: FFDINforPuma, Inter, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; */
+h5{
+
+  font-weight: lighter;
+}
+
+  button{
+      margin-top: 20px;
+      height: 38px;
+      width: 130px;
+      font-weight: bold;
+      font-size: 14px;
+      
+  }
+}
+
+.see-spain{
+
+  border: 2px solid black;
+  width: 100%;
+  height: 550px;
+  background-image: url("https://cdn.sanity.io/images/qa41whrn/prod/5edc9960d1d9eb2a41d9f85dea96d705c481037e-6000x2167.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.see-spain-box{
+  /* border: 2px solid black; */
+  width: 600px;
+  height: 250px;
+  margin-top: 160px;
+  color: white;
+  line-height: 1.5;
+
+  h4{
+
+    font-weight: 600;
+    font-size: 21px;
+  }
+  
+    button{
+        margin-top: 20px;
+        height: 38px;
+        width: 130px;
+        font-weight: bold;
+        font-size: 14px;
+        
+    }
+
+}
+
+.play-loud{
+  border: 2px solid black;
+  width: 100%;
+  height: 550px;
+  background-image: url("https://cdn.sanity.io/images/qa41whrn/prod/2fe347a0a97655fbcb8bb782f062e8522ecfebad-6000x2167.jpg");
+  background-size: cover;
+  background-position: center;
+
+}
+
+.play-loud-box{
+/* border: 2px solid black; */
+width: 600px;
+height: 250px;
+margin-top: 160px;
+color: white;
+
+margin-left: 900px;
+padding-left: 200px;
+
+h3{
+
+  font-size: 21px;
+  font-weight: lighter;
+
+}
+
+button{
+  margin-top: 20px;
+  height: 38px;
+  width: 130px;
+  font-weight: bold;
+  font-size: 14px;
+  
+}
+}
+
+.back-to-azzurro{
+  border: 2px solid black;
+  width: 100%;
+  height: 550px;
+  background-image: url("https://cdn.sanity.io/images/qa41whrn/prod/6c6c8eeb889e595ebe354186241b91049b87bb40-6000x2167.jpg");
+  background-size: cover;
+  background-position: center;
+
+
+}
+
+.back-to-azzurro-box{
+  /* border: 2px solid black; */
+
+  width: 600px;
+  height: 250px;
+  margin-top: 160px;
+  color: white;
+  padding-left: 40px;
+  text-align: left;
+
+  h3{
+
+    font-size: 21px;
+    font-weight: lighter;
+  
+  }
+
+  button{
+    margin-top: 20px;
+    height: 38px;
+    width: 130px;
+    font-weight: bold;
+    font-size: 14px;
+    
+  }
+
+}
+
+.puma-trolls{
+
+  border: 2px solid black;
+  width: 100%;
+  height: 550px;
+  background-image: url("https://cdn.sanity.io/images/qa41whrn/prod/c95754a12cfb4ec610699e16fadb83290e2806b3-6000x2167.jpg?w=1440&q=80&auto=format");
+  background-size: cover;
+  background-position: center;
+}
+
+.puma-trolls-box{
+/* border: 2px solid black; */
+
+width: 600px;
+height: 250px;
+margin-top: 160px;
+color: white;
+padding-left: 40px;
+text-align: left;
+
+h1{
+
+  font-size: 41px;
+}
+
+h3{
+
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+button{
+  margin-top: 20px;
+  height: 38px;
+  width: 130px;
+  font-weight: bold;
+  font-size: 14px;
+  
+}
+
+}
+
+.puma-carrots{
+  border: 2px solid white;
+  width: 100%;
+  height: 550px;
+  background-image: url("https://cdn.sanity.io/images/qa41whrn/prod/33e1754f474d9d2896f724b524a51f2a023278b2-6000x2167.jpg");
+  background-size: cover;
+  background-position: center;
+
+}
+
+.puma-carrots-box{
+/* border: 2px solid black; */
+
+width: 600px;
+height: 250px;
+margin-top: 160px;
+color: white;
+padding-left: 40px;
+text-align: left;
+h2, h5{
+  font-weight: lighter;
+}
+
+button{
+  margin-top: 20px;
+  height: 38px;
+  width: 130px;
+  font-weight: bold;
+  font-size: 14px;
+  
+}
+
+}
+
+.made-with{
+  border: 2px solid white;
+  width: 100%;
+  height: 550px;
+  background-image: url("https://cdn.sanity.io/images/qa41whrn/prod/05bc97b5db11fbd0ef483eb86caedd4c0ea5e73d-6000x2167.jpg");
+  background-size: cover;
+  background-position: center;
+
+}
+
+.made-with-box{
+/* border: 2px solid black; */
+
+width: 600px;
+height: 250px;
+margin-top: 160px;
+color: white;
+padding-left: 40px;
+text-align: left;
+h3{
+  font-weight: lighter;
+}
+
+button{
+  margin-top: 20px;
+  height: 38px;
+  width: 130px;
+  font-weight: bold;
+  font-size: 14px;
+  
+}
+}
+
+.forever-faster-vid{
+
+  /* border: 2px solid black; */
+  width: 100%;
+  height: 550px;
+ 
+  button{
+    margin-top: 20px;
+    height: 38px;
+    width: 130px;
+    font-weight: bold;
+    font-size: 14px;
+    position: relative;
+    bottom: 120px;
+    
+  }
+}
+
+.kids-must{
+
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 460px;
+  padding-top: 20px;
+  margin-top: 10px;
+  font-family: FFDINforPuma, Inter, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  h1{
+
+    font-weight: 600;
+    font-size: 28px;
+  }
+
+}
+
+.kids-must-box{
+  border: 2px solid black;
+  width: 100%;
+  height: 380px;  
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+#school-store{
+
+  width: 23%;
+  height: 360px;
+  background: url(https://cdn.sanity.io/images/qa41whrn/prod/dfe752b0a313bc267f5aa23a412594d71f933c2b-1536x1536.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#casual-wear{
+  width: 23%;
+  height: 360px;
+  background: url(https://cdn.sanity.io/images/qa41whrn/prod/604102f5cbf9b160b4b545ab56561d152d06ac96-1536x1536.jpg);
+  background-position: center;
+  background-size: cover;
+
+}
+
+#softride-shoes{
+  width: 23%;
+  height: 360px;
+  background: url(https://cdn.sanity.io/images/qa41whrn/prod/5bc14638c184c4c775b2f90210427c3dd4aa33c1-1536x1536.jpg);
+  background-position: center;
+  background-size: cover;
+
+}
+
+#sets{
+  width: 23%;
+  height: 360px;
+  background: url(https://cdn.sanity.io/images/qa41whrn/prod/ec1fd75b27717e7a78c3fcf71e855d7298329370-1536x1536.jpg);
+  background-position: center;
+  background-size: cover;
 
 }
